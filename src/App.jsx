@@ -10,8 +10,8 @@ function App() {
   const [navState, setNavState] = useState(false);
 
   return (
-    <div className="min-h-screen">
-      <header className="min-h-screen bg-cover bg-[url('../src/assets/mobile/image-hero.jpg')] px-6 py-10 flex flex-col gap-6 text-white">
+    <div className="min-h-full">
+      <header className="min-h-screen bg-cover bg-[url('../src/assets/mobile/image-hero.jpg')] px-6 py-10 md:p-16 flex flex-col gap-6 text-white">
         <Header setNavState={setNavState} />
 
         <Nav navState={navState} setNavState={setNavState} />
@@ -19,9 +19,9 @@ function App() {
         <Hero />
       </header>
 
-      <main className=" px-6 py-20 font-alata">
+      <main className=" px-6 py-20 font-alata md:px-16">
         <About />
-
+          
         <Creations />
       </main>
 

@@ -4,7 +4,7 @@ import closeNav from "../assets/icon-close.svg"
 
 const Nav = ({ navState, setNavState }) => {
   return (
-    <nav aria-label='Mobile Nav' className='fixed z-[5] top-0 left-0 h-full w-full px-6 py-10 bg-black opacity-0 translate-x-full transition-all duration-500 flex flex-col gap-4' style={navState ? {opacity: "1", transform: "translateX(0)"} : {}}>
+    <nav aria-label='Mobile Nav' className='fixed z-[5] top-0 right-0 h-full w-full px-6 py-10 bg-black opacity-0 translate-x-full transition-all duration-500 flex flex-col gap-4 md:p-16 md:w-1/2' style={navState ? {opacity: "1", transform: "translateX(0)"} : {}}>
         
         <button type='button' className='self-end mt-1' onClick={() => setNavState(prev => !prev)}>
                 <img src={closeNav} alt="Close Nav" className="w-6 h-6" />

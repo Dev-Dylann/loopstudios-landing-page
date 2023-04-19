@@ -6,9 +6,9 @@ const About = () => {
     <section id="about" className="py-4 flex flex-col gap-6 items-center justify-center text-center scroll-mt-12">
         <img src={interactive} alt="Interactive VR" />
 
-        <article className='p-4'>
-            <h2 className='font-josefin text-3xl'>THE LEADER IN INTERACTIVE VR</h2>
-            <p className='text-gray-darker mt-4'>Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+        <article className='p-4 md:px-14'>
+            <h2 className='font-josefin text-3xl md:text-4xl'>THE LEADER IN INTERACTIVE VR</h2>
+            <p className='text-gray-darker mt-4 md:text-lg'>Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
         </article>
     </section>
   )

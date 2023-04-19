@@ -8,7 +8,7 @@ const Header = ({ setNavState }) => {
         <img src={logo} alt="LoopStudios Logo" className='z-10' />
 
         <button type='button' onClick={() => setNavState(prev => !prev)}>
-            <img src={hamburger} alt="Open Nav" className="w-6 h-5" />
+            <img src={hamburger} alt="Open Nav" className="w-6 h-5 md:w-8 md:h-6" />
         </button>
     </section>
   )

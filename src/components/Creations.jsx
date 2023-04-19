@@ -14,20 +14,20 @@ const Creations = () => {
 
   return (
     <section id="creations" className="py-14 pb-8 font-josefin">
-        <h2 className='text-3xl text-center'>OUR CREATIONS</h2>
+        <h2 className='text-3xl text-center md:text-4xl'>OUR CREATIONS</h2>
 
-        <article className="mt-10 text-white flex flex-col gap-6 items-center">
+        <article className="mt-10 text-white flex flex-col gap-6 items-center md:grid md:grid-cols-2">
           {mobileArray.map(image => (
             
-            <div key={mobileArray.indexOf(image)} className="bg-cover bg-center w-full" style={{backgroundImage: `url(${image})`}}>
-              <div className="p-6 bg-gradient-to-r from-transBlack">
-                <h3 className='mt-8 w-[40%] text-2xl'>{creations[mobileArray.indexOf(image)].toUpperCase()}</h3>
+            <div key={mobileArray.indexOf(image)} className="bg-cover bg-center w-full md:h-full" style={{backgroundImage: `url(${image})`}}>
+              <div className="p-6 h-full bg-gradient-to-r from-transBlack md:flex md:items-end">
+                <h3 className='mt-8 w-[40%] text-2xl md:w-2/3'>{creations[mobileArray.indexOf(image)].toUpperCase()}</h3>
               </div>
             </div>
           ))}
         </article>
 
-        <button type="button" className="mt-10 py-2 px-8 tracking-[.35em] block mx-auto font-alata border border-black">SEE ALL</button>
+        <button type="button" className="mt-10 py-2 px-8 tracking-[.35em] block mx-auto font-alata border border-black md:text-lg md:py-3 md:px-12">SEE ALL</button>
     </section>
   )
 }
