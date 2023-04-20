@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.png)
+![Screenshot](./public/screenshot.png)
 
 ### Links
 
@@ -41,7 +41,7 @@ Users should be able to:
 - [React](https://reactjs.org/) - JS library
 - Fonts from [Google Fonts](https://)
 
-### What I Leaarned
+### What I Learned
 
 One of the major things I learned durring this project was the `group` class in Tailwind that lets me style elements based on the state of a parent element.
 
