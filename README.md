@@ -53,4 +53,4 @@ One of the major things I learned durring this project was the `group` class in 
 
 - GitHub - [DevDylan](https://github.com/Dev-Dylann)
 - Frontend Mentor - [@Dev-Dylann](https://www.frontendmentor.io/profile/Dev-Dylann)
-- Twitter - [@DevDylan](https://www.twitter.com/DevDylan)
+- Twitter - [@TunmiseTubi](https://www.twitter.com/TunmiseTubi)
