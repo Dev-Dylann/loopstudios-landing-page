@@ -8,24 +8,25 @@ import Footer from "./components/Footer"
 
 function App() {
   const [navState, setNavState] = useState(false);
+  const navList = ["About", "Careers", "Events", "Products", "Support"];
 
   return (
     <div className="min-h-full">
-      <header className="min-h-screen bg-cover bg-[url('../src/assets/mobile/image-hero.jpg')] px-6 py-10 md:p-16 flex flex-col gap-6 text-white">
-        <Header setNavState={setNavState} />
+      <header className="min-h-screen bg-cover bg-center bg-[url('../src/assets/mobile/image-hero.jpg')] px-6 py-10 flex flex-col gap-6 text-white md:p-16 lg:bg-[url('../src/assets/desktop/image-hero.jpg')]">
+        <Header setNavState={setNavState} navList={navList} />
 
         <Nav navState={navState} setNavState={setNavState} />
 
         <Hero />
       </header>
 
-      <main className=" px-6 py-20 font-alata md:px-16">
+      <main className="px-6 py-20 font-alata md:px-16 lg:mx-auto xl:px-16">
         <About />
           
         <Creations />
       </main>
 
-      <Footer />
+      <Footer navList={navList} />
     </div>
   )
 }
