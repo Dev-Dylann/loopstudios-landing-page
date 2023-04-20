@@ -25,11 +25,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./screenshot.jpg)
+![Screenshot](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution on GitHub](https://github.com/Dev-Dylann/loopstudios-landing-page/)
 - Live Site URL: [Loopstudios Landing Page](https://devdylann-loopstudios.netlify.app)
 
 ## My Process
@@ -37,7 +37,7 @@ Users should be able to:
 ### Built with
 
 - Mobile-first workflow
-- [Tailwind CSS](https://) - CSS Framework
+- [Tailwind CSS](https://tailwindcss.com/) - CSS Framework
 - [React](https://reactjs.org/) - JS library
 - Fonts from [Google Fonts](https://)
 
@@ -47,10 +47,10 @@ One of the major things I learned durring this project was the `group` class in 
 
 ### Useful Resources
 
-- [Tailwwind Docs]() - The Tailwind Documentation really helped me discover classes I wasn't previously familiar with like `leading-{size}`, `tracking-{size}` and `origin-{position}`.
+- [Tailwwind Docs](https://tailwindcss.com/docs/installation) - The Tailwind Documentation really helped me discover classes I wasn't previously familiar with like `leading-{size}`, `tracking-{size}` and `origin-{position}`.
 
 ## Author
 
-- GitHub - [DevDylan](https://)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- GitHub - [DevDylan](https://github.com/Dev-Dylann)
+- Frontend Mentor - [@Dev-Dylann](https://www.frontendmentor.io/profile/Dev-Dylann)
 - Twitter - [@DevDylan](https://www.twitter.com/DevDylan)
