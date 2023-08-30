@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import About from "./components/About";
 import Creations from "./components/Creations"
+import SignOrLogIn from "./components/SignOrLogIn";
 import Footer from "./components/Footer"
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
         <About />
           
         <Creations />
+
+        <SignOrLogIn />
       </main>
 
       <Footer navList={navList} />
