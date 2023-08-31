@@ -11,10 +11,17 @@ const SignOrLogIn = () => {
   const confirmPwordRef = useRef()
 
   useEffect(() => { 
-    mailRef.current.classList.toggle('-mt-[71.5px]')
-    mailRef.current.classList.toggle('opacity-0')
-    confirmPwordRef.current.classList.toggle('-mt-[71.5px]')
-    confirmPwordRef.current.classList.toggle('opacity-0')
+    if (formState === 'login') {
+      mailRef.current.classList.add('-mt-[71.5px]')
+      mailRef.current.classList.add('opacity-0')
+      confirmPwordRef.current.classList.add('-mt-[71.5px]')
+      confirmPwordRef.current.classList.add('opacity-0')
+    } else if (formState === 'signup') {
+      mailRef.current.classList.remove('-mt-[71.5px]')
+      mailRef.current.classList.remove('opacity-0')
+      confirmPwordRef.current.classList.remove('-mt-[71.5px]')
+      confirmPwordRef.current.classList.remove('opacity-0')
+    }
   }, [formState])
 
   return (
