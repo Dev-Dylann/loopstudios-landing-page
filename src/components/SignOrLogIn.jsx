@@ -34,7 +34,7 @@ const SignOrLogIn = () => {
 
                 <p className='md:text-lg lg:text-xl'>{formState === 'login' ? "Fill in your details" : "Fill in the form to get started"}</p>
 
-                <p className='text-[#9F9F9F] mt-6 lg:text-lg'>{formState === 'login' ? "Don't have an account?" : "Already have an account?"} <span className='underline cursor-pointer hover:text-white' onClick={() => setFormState(prev => prev === 'login' ? 'signup' : 'login')}>{formState === 'login' ? "Sign Up" : "Log in"}</span> instead.</p>
+                <p className='text-sm mt-6 sm:text-base lg:text-lg'>{formState === 'login' ? "Don't have an account?" : "Already have an account?"} <span className='underline cursor-pointer' onClick={() => setFormState(prev => prev === 'login' ? 'signup' : 'login')}>{formState === 'login' ? "Sign Up" : "Log in"}</span> instead.</p>
             </div>
         </article>
 

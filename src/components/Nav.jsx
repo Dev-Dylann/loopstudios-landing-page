@@ -12,10 +12,10 @@ const Nav = ({ navState, setNavState }) => {
 
         <ul onClick={() => setNavState(prev => !prev)} className='grow font-josefin flex flex-col justify-center gap-4 text-3xl md:gap-5'>
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="">CAREERS</a></li>
-            <li><a href="">EVENTS</a></li>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">EVENTS</a></li>
             <li><a href="#products">PRODUCTS</a></li>
-            <li><a href="">SUPPORT</a></li>
+            <li><a href="#">SUPPORT</a></li>
         </ul>
     </nav>
   )
