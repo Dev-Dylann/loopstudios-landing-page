@@ -9,8 +9,8 @@ const Header = ({ setNavState, navList }) => {
 
         <nav aria-label='Desktop Nav' className='hidden font-alata grow justify-end lg:flex'>
           <ul className="flex gap-6 text-lg">
-            {navList.map(navItem => (
-              <li className="relative group"><a href={`#${navItem.toLowerCase()}`}>{navItem}</a><span className='absolute left-1/4 -bottom-1.5 w-1/2 h-1 bg-white rounded-full origin-center scale-0 group-hover:scale-100 transition-all'></span></li>
+            {navList.map((navItem, index) => (
+              <li key={index} className="relative group"><a href={`#${navItem.toLowerCase()}`}>{navItem}</a><span className='absolute left-1/4 -bottom-1.5 w-1/2 h-1 bg-white rounded-full origin-center scale-0 group-hover:scale-100 transition-all'></span></li>
             ))}
           </ul>
         </nav>

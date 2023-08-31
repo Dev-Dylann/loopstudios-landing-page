@@ -42,7 +42,7 @@ const Creations = () => {
     
         <article className="hidden mt-14 grid-cols-4 gap-6 lg:grid">
             {desktopArray.map(image => (
-              <div key={desktopArray.indexOf(image)} className="bg-cover bg-center h-[400px] hover:bg-[size:110%] xl:h-[450px] transition-all group"
+              <div key={desktopArray.indexOf(image)} className="bg-cover bg-center h-[400px] hover:bg-[size:110%] xl:h-[450px] transition-all cursor-pointer group"
               style={{backgroundImage: `url(${image})`}}>
                 <div className="p-6 h-full bg-gradient-to-t from-transBlack flex items-end hover:bg-none group-hover:bg-transWhite transition-all">
                 <h3 className='mt-8 text-2xl w-4/5 text-white group-hover:text-black xl:group-hover:text-3xl transition-all'>{creations[desktopArray.indexOf(image)].toUpperCase()}</h3>
