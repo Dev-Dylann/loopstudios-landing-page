@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution on GitHub](https://github.com/Dev-Dylann/loopstudios-landing-page/)
-- Live Site URL: [Loopstudios Landing Page](https://devdylann-loopstudios.netlify.app)
+- Live Site URL: [Loopstudios Landing Page](https://devdylann-loopstudios-extended.netlify.app)
 
 ## My Process
 
